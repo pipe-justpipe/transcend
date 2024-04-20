@@ -1,9 +1,15 @@
 import React from "react";
+import Heading from "../Components/Heading";
 
 const Contact = () => {
   return (
-    <section id="Contact">
-      <h1 className="text-[#1C0F30] text-[40px] leading-[50px] text-center font-medium mt-[150px]">Contact Us</h1>
+    <section id="Contact" className="mt-[150px]">
+          {/* <Heading speed={50}>
+           Contact Us
+  
+      </Heading> */}
+      <h1 className="text-[#1C0F30] text-[40px] leading-[50px] text-center font-medium " id="demo">Contact Us</h1>
+
       <p className="w-[1164px] text-center mx-auto text-[20px] leading-[30px] text-[#31135E] font-normal mt-[50px] mb-[100px]">
         Have a question, comment, or feedback for us? We’d love to hear from
         you! Our team is dedicated to providing the best possible experience,

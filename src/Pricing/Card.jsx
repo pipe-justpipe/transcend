@@ -35,7 +35,7 @@ const Card = () => {
                     key={listItemIndex}
                     className="flex items-center gap-[30px]"
                   >
-                    <span className="p-[9.22px] bg-[#A56EFF] w-[36.31px] rounded-[100%]">
+                    <span className="p-[9.22px] bg-[#A56EFF] w-[30.31px] rounded-[50%] flex items-center justify-center">
                       <img src={mark} alt="Mark" />
                     </span>
                     <p className="text-[18px] font-normal leading-[27px] text-[#6B7280]">

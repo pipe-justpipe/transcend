@@ -2,14 +2,30 @@ import React from "react";
 import AboutDesc from "../Components/AboutDesc";
 import mobilesignup from "../assets/svgs/mobilesignup.svg";
 import "../App.css";
+import Heading from "../Components/Heading";
 
 const About = () => {
+  
   return (
     
     <section className="mt-[350px] w-[80%] mx-auto mb-[200px]">
-      <h1 className="text-center text-[40px] font-medium leading-[30px] mb-[50px]">
+      <h1 className="text-center text-[40px] font-medium leading-[30px] mb-[50px]" id="demo">
       How <span className="text-[#491D8B]">Transcend</span> App Works
       </h1>
+      {/* <Heading speed={50}>
+        How <span style={{ color: '#491D8B' }}>Transcend</span> App Works
+      </Heading> */}
+
+      {/* <Heading
+        text="How Transcend App Works"
+        speed={50}
+        highlights={[
+          { text: "Transcend", color: "#491D8B" },
+          { text: "App", color: "#FF6347" }
+        ]}
+      /> */}
+
+
       <div className="about relative">
       {/* <h1></h1> */}
       {/* <img src={mobilesignup} alt='play store badge'/> */}
