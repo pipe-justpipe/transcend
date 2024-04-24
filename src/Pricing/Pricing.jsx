@@ -8,7 +8,7 @@ const Pricing = () => {
         {/* <Heading speed={50}>
         Choose the <span style={{ color: '#491D8B' }}>plan</span> that’s right for you
       </Heading> */}
-        <h1 className='font-[500] text-[40px] leading-[60px] mb-[70px] text-center'>Choose the <span className='text-[#491D8B]'>plan</span> that’s right for you</h1>
+        <h1 className='font-[500] lg:text-[40px] md:text-[30px] text-[25px] leading-[60px] mb-[70px] text-center'>Choose the <span className='text-[#491D8B]'>plan</span> that’s right for you</h1>
         <Card/>
     </div>
   )

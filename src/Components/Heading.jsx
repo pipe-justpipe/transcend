@@ -38,7 +38,7 @@ function Heading({ children, speed, txt }) {
   };
 
   return (
-    <h1 className="text-[64px] font-medium leading-[96px] w-[488px] text-[#491d8b]" id="demo">
+    <h1 className="lg:text-[64px] font-medium lg:leading-[96px] md:leading-[96px] leading-[56px] lg:w-[488px] md:w-[390px] md:text-[48px] text-[27px] w-[210px] text-[#491d8b]" id="demo">
     <span>{txt}</span>{renderContent()}
   </h1>
   );

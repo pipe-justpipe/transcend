@@ -1,37 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AboutDesc from "../Components/AboutDesc";
 import mobilesignup from "../assets/svgs/mobilesignup.svg";
 import "../App.css";
 import Heading from "../Components/Heading";
 
 const About = () => {
+  const [style, setStyle] = useState({
+    width: "100%",
+    display: "grid",
+    gridTemplateColumns: "repeat(2, minmax(353px, 360px))",
+    justifyContent: "space-between",
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 899) {
+        setStyle({
+          width: "100%",
+          display: "grid",
+          gridTemplateColumns: "repeat(1, 1fr)",
+          justifyContent: "center",
+        });
+      } else {
+        setStyle({
+          width: "100%",
+          display: "grid",
+          gridTemplateColumns: "repeat(2, minmax(353px, 360px))",
+          justifyContent: "space-between",
+        });
+      }
+    };
+
+    // Set the initial style based on the current window width
+    handleResize();
+
+    // Add event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up function to remove event listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   
   return (
     
     <section className="mt-[350px] w-[80%] mx-auto mb-[200px]">
-      <h1 className="text-center text-[40px] font-medium leading-[30px] mb-[50px]" id="demo">
+      <h1 className="text-center lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] mb-[50px]" id="demo">
       How <span className="text-[#491D8B]">Transcend</span> App Works
       </h1>
-      {/* <Heading speed={50}>
-        How <span style={{ color: '#491D8B' }}>Transcend</span> App Works
-      </Heading> */}
-
-      {/* <Heading
-        text="How Transcend App Works"
-        speed={50}
-        highlights={[
-          { text: "Transcend", color: "#491D8B" },
-          { text: "App", color: "#FF6347" }
-        ]}
-      /> */}
-
-
-      <div className="about relative">
-      {/* <h1></h1> */}
-      {/* <img src={mobilesignup} alt='play store badge'/> */}
+      <div className="about relative flex flex-wrap">
       <div className="background-image"></div>
       {/* <h1></h1> */}
-      <div>
+      <div style={style}>
         <AboutDesc
           num="1"
           heading={"Sign In:"}
@@ -44,18 +63,6 @@ const About = () => {
           marginBottom={"50px"}
         />
         <AboutDesc
-          num="4"
-          heading={"Enjoy your ride:"}
-          text={
-            "Once your ride is booked and your driver’s arrives, relax and enjoy your ride. During the ride, you can track your trip's progress and also  rate your drive"
-          }
-          textColor={"#000000"}
-          bgColor={"#6929C4"}
-          width={"353px"}
-        />
-      </div>
-      <div>
-        <AboutDesc
           num="2"
           heading={"Subscribe:"}
           text={
@@ -67,15 +74,25 @@ const About = () => {
           marginBottom={"50px"}
         />
         <AboutDesc
+          num="4"
+          heading={"Enjoy your ride:"}
+          text={
+            "Once your ride is booked and your driver’s arrives, relax and enjoy your ride. During the ride, you can track your trip's progress and also  rate your drive"
+          }
+          textColor={"#ffffff"}
+          bgColor={"#6929C4"}
+          width={"353px"}
+        />
+        <AboutDesc
           num="3"
           heading={"Payment:"}
           text={
             "After picking a plan, you need to provide payment details such as a credit card, debit card, or digital wallet to pay for the service. The app securely saves your payment information for future rides, so you don't have to enter it every time."
           }
-          textColor={"#ffffff"}
+          textColor={"#000000"}
           bgColor={"#BE95FF"}
           width={"327px"}
-         
+          
         />
       </div>
       </div>

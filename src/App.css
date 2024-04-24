@@ -24,8 +24,31 @@
   /* z-index: -1; Keep it behind the content  */
 }
 
+
+/* Adjustments for tablets */
+@media (max-width: 1305px) {
+  .background-image {
+    display: none;
+  }
+}
+
 .content {
   position: relative;
   z-index: 1;
 }
 
+/* Hide the nav links and show hamburger on smaller screens */
+@media (max-width: 950px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Default styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
