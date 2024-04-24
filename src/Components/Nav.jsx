@@ -5,7 +5,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='flex justify-between mt-12 w-4/5 mx-auto'>
+    <nav className='flex justify-between mt-12 lg:w-4/5 md:w-full mx-auto'>
       <img src={TranscendLogo} alt='logo' className='lg:w-[224px] lg:h-[56px] md:w-[180px] md:h-[38px] w-[150px] h-[28px]' />
       <div className='flex items-center gap-6'>
         <ul className={`hidden md:flex text-[#1C0F30] text-lg leading-[30px] font-medium gap-6`}>

@@ -30,7 +30,7 @@ const Footer = () => {
               className="lg:w-[135px] md:w-[135px] w-[100px]  h-[40px]"
             />
           </figure>
-          <div className="mt-[150px] flex max-[1024px]:flex-col w-[87%] justify-between">
+          <div className="lg:mt-[150px] md:mt-[100px] mt-[70px] flex max-[1024px]:flex-col w-[87%] justify-between">
             <div>
               <img src={logo} alt="logo" className="lg:w-[260px] md:w-[220px] w-[120px]" />
               <p className="lg:w-[415px] md:w-[350px] text-[12px] w-[260px] md:text-[14px] lg:text-[16px] leading-[30px] text-[#F6F2FF] mt-[50px]">

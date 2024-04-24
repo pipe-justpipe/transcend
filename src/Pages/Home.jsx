@@ -16,12 +16,12 @@ const Home = () => {
             Ride<span className="text-black">, Enjoy</span>
           </Heading>
   
-          <p className="lg:text-[16px] leading-[30px] font-normal text-[#1C0F30] w-[260px] text-[12px] lg:w-[494px] md:w-[370px] md:text-[14px]">
+          <p className="lg:text-[16px] leading-[30px] font-normal text-[#1C0F30] w-[260px] lg:mx-0 mx-auto  md:mx-0 text-[12px] lg:w-[494px] md:w-[370px] md:text-[14px]">
             Download TRANSCEND Rider/Driver app from your play store and app
             store, create an account of your choice, schedule your trips and
             enjoy a stress free ride home and to your Office
           </p>
-          <figure className="flex lg:w-[319px] md:w-[319px] w-[260px] justify-between">
+          <figure className="flex lg:mx-o md:mx-0 mx-auto lg:w-[319px] md:w-[319px] w-[260px] justify-between">
             <img
               src={playstorebadge}
               alt="play store badge"

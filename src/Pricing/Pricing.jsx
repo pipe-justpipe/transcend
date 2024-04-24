@@ -4,7 +4,7 @@ import Heading from '../Components/Heading'
 
 const Pricing = () => {
   return (
-    <div className='bg-[#D0CCD7] mt-[150px] pt-[50px] pb-[250px]'>
+    <div className='bg-[#D0CCD7] lg:mt-[150px] md:mt-[100px] mt-[70px] pt-[50px] pb-[250px]'>
         {/* <Heading speed={50}>
         Choose the <span style={{ color: '#491D8B' }}>plan</span> that’s right for you
       </Heading> */}

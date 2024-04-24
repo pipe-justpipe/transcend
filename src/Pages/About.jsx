@@ -43,7 +43,7 @@ const About = () => {
   
   return (
     
-    <section className="mt-[350px] w-[80%] mx-auto mb-[200px]">
+    <section className="lg:mt-[350px] md:lt-[250px] mt-[100px] w-[80%] mx-auto lg:mb-[200px] md:mb-[150px] mb-[70px]">
       <h1 className="text-center lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] mb-[50px]" id="demo">
       How <span className="text-[#491D8B]">Transcend</span> App Works
       </h1>

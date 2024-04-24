@@ -47,7 +47,7 @@ const Card = () => {
               </div>
             </div>
 
-            <button className="lg:w-[265px] md:w-[200px] w-[180px] flex items-center justify-center mx-auto text-[#ffffff] py-[16px] px-[20px] rounded-[12px] bg-gradient-to-tl from-purple-500 via-purple-600 to-purple-700 mt-[70px] lg:text-[20px] md:text-[16px] text-[12px] font-semibold leading-[30px]">{button}</button>
+            <button className="lg:w-[265px] md:w-[200px] w-[180px] flex items-center justify-center mx-auto text-[#ffffff] py-[16px] px-[20px] rounded-[12px] bg-gradient-to-tl from-purple-500 via-purple-600 to-purple-700 lg:mt-[70px] md:mt-[70px] mt-[50px] lg:text-[20px] md:text-[16px] text-[12px] font-semibold leading-[30px]">{button}</button>
           </div>
         )
       )}
