@@ -19,11 +19,11 @@ const Contact = () => {
         <form className="mx-auto flex flex-col gap-[40px]">
           <div className="flex flex-wrap gap-[20px] justify-between w-4/5 mx-auto">
             <input
-              className="border border-solid border-black border-opacity-25 lg:w-[480.18px] md:w-[380px] w-[200px] rounded-[12px] px-[20px] py-[16px]"
+              className="border border-solid border-black border-opacity-25 lg:w-[480.18px] md:w-[380px] w-[200px] mx-auto rounded-[12px] px-[20px] py-[16px]"
               placeholder="what is your name? *"
             />
             <input
-              className="border border-solid border-black border-opacity-25 lg:w-[480.18px] md:w-[380px] w-[200px] rounded-[12px] px-[20px] py-[16px]"
+              className="border border-solid border-black border-opacity-25 lg:w-[480.18px] md:w-[380px] w-[200px] mx-auto rounded-[12px] px-[20px] py-[16px]"
               placeholder="Email Address"
             />
           </div>{" "}
