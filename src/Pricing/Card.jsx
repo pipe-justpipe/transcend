@@ -12,7 +12,7 @@ const Card = () => {
         ) => (
           <div
             key={index}
-            className="lg:w-[377px] md:w-[290px] w-[250px] h-[580px] rounded-[18px] bg-[#ffffff] pt-[30px] px-[30px] mt-[20px]"
+            className="lg:w-[377px] md:w-[290px] mx-auto w-[250px] h-[580px] rounded-[18px] bg-[#ffffff] pt-[30px] px-[30px] mt-[20px]"
           >
             <div className="flex items-center justify-center mb-[40px]">
               <h1 className="lg:text-[32px] md:text-[25px] text-[18px] leading-[48px] font-medium text-center">
