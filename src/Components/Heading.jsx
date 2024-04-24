@@ -4,7 +4,6 @@ function Heading({ children, speed, txt }) {
   const [displayedText, setDisplayedText] = useState([]);
   const [index, setIndex] = useState(0);
 
-  // Flatten children to handle text and elements separately
   const flattenChildren = (child) => {
     if (typeof child === 'string') {
       return child.split('').map((char) => ({ type: 'text', content: char }));
