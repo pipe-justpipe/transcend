@@ -43,7 +43,7 @@ const About = () => {
   
   return (
     
-    <section className="lg:mt-[350px] md:lt-[250px] mt-[100px] w-[80%] mx-auto lg:mb-[200px] md:mb-[150px] mb-[70px]">
+    <section id="about" className="lg:mt-[350px] md:lt-[250px] mt-[100px] w-[80%] mx-auto lg:mb-[200px] md:mb-[150px] mb-[70px]">
       <h1 className="text-center lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] mb-[50px]" id="demo">
       How <span className="text-[#491D8B]">Transcend</span> App Works
       </h1>
@@ -60,7 +60,7 @@ const About = () => {
           textColor={"#000000"}
           bgColor={"#BE95FF"}
           width={"316px"}
-          marginBottom={"50px"}
+          marginTop={"50px"}
         />
         <AboutDesc
           num="2"
@@ -71,7 +71,7 @@ const About = () => {
           textColor={"#ffffff"}
           bgColor={"#6929C4"}
           width={"320px"}
-          marginBottom={"50px"}
+          marginTop={"50px"}
         />
         <AboutDesc
           num="4"
@@ -82,6 +82,7 @@ const About = () => {
           textColor={"#ffffff"}
           bgColor={"#6929C4"}
           width={"353px"}
+          marginTop={"50px"}
         />
         <AboutDesc
           num="3"
@@ -92,6 +93,7 @@ const About = () => {
           textColor={"#000000"}
           bgColor={"#BE95FF"}
           width={"327px"}
+          marginTop={"50px"}
           
         />
       </div>

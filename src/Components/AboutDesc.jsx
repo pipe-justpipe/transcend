@@ -7,12 +7,12 @@ const AboutDesc = ({
   textColor,
   bgColor,
   width,
-  marginBottom,
+  marginTop,
   position,
 }) => {
   return (
     <section className="w-fit">
-      <div style={{ marginBottom }} className="flex flex-col gap-[20px] relative w-fit">
+      <div style={{ marginTop }} className="flex flex-col gap-[20px] relative w-fit">
         <div>
           <h1
             style={{ backgroundColor: bgColor, padding: "20px", width: "75px", color: textColor }}

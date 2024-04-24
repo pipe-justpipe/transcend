@@ -11,7 +11,7 @@ const Footer = () => {
     <h1 className="lg:text-[48px] md:text-[35px] text-[25px]  leading-[72px] text-[#1C0F30] font-medium">
       Download Transcend app
     </h1>
-    <img src={Groupphone} alt="phones" className="lg:w-[500px] md:w-[300px] w-[250px] mb-[-200px]" />
+    <img src={Groupphone} alt="phones" className="lg:w-[500px] md:w-[300px] w-[250px] mx-auto lg:mb-[-200px] md:mb-[-150px] mb-[-100px]" />
   </div>
     <div className="bg-[#31135E]">
 

@@ -7,7 +7,7 @@ import Heading from "../Components/Heading";
 
 const Home = () => {
   return (
-    <section className="mt-[50px] w-[80%] mx-auto">
+    <section id="home" className="mt-[50px] w-[80%] mx-auto">
       
       <div className="flex flex-row justify-between max-[1024px]:flex-col max-[1024px]:gap-[50px]">
         <div className="flex flex-col gap-[40px]">
