@@ -22,12 +22,12 @@ const Footer = () => {
             <img
               src={playstore}
               alt="app store badge"
-              className="w-[135px] h-[40px]"
+              className="lg:w-[135px] md:w-[135px] w-[100px] h-[40px]"
             />
             <img
               src={appstore}
               alt="app store badge"
-              className="w-[135px] h-[40px]"
+              className="lg:w-[135px] md:w-[135px] w-[100px]  h-[40px]"
             />
           </figure>
           <div className="mt-[150px] flex max-[1024px]:flex-col w-[87%] justify-between">
@@ -39,10 +39,10 @@ const Footer = () => {
                 enjoy a stress free ride home and to your Office
               </p>
             </div>
-            <div className="flex max-[1024px]:flex-col w-[300px] justify-between text-[#ffffff]">
+            <div className="flex max-[1024px]:flex-col lg:w-[300px] md:w-[270px] w-[250px] justify-between text-[#ffffff]">
               <div className="flex flex-col gap-[46px]">
                 <h4 className="font-[900] leading-[27px] text-[#FEFEFE] mt-[15px] lg:text-[18px] md:text-[16px] text-[14px]">About</h4>
-                <div className="flex flex-col gap-[24px] lg:text-[15px] md:text-[12px] text-[10px] leading-[22.5px]">
+                <div className="flex flex-col  gap-[24px] lg:text-[15px] md:text-[12px] text-[10px] leading-[22.5px]">
                   <span>About Us</span>
                   <span>Features</span>
                   <span>News</span>
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col gap-[46px]">
                 <h4 className="font-[900] lg:text-[18px] md:text-[16px] text-[14px] leading-[27px] text-[#FEFEFE] mt-[15px]">Contact Us</h4>
-                <div className="flex flex-col gap-[24px] lg:text-[15px] md:text-[12px] text-[10px]">
+                <div className="flex flex-col w-4/5 gap-[24px] lg:text-[15px] md:text-[12px] text-[10px]">
                   <span>Ikeja, Lagos</span>
                   <span>xxx - 12345</span>
                   <span>(480)555-0103</span>

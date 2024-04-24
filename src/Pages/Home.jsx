@@ -25,12 +25,12 @@ const Home = () => {
             <img
               src={playstorebadge}
               alt="play store badge"
-              className="w-[135px] h-[40px]"
+              className="lg:w-[135px] md:w-[135px] w-[110px]  h-[40px]"
             />
             <img
               src={appstorebadge}
               alt="app store badge"
-              className="w-[135px] h-[40px]"
+              className="lg:w-[135px] md:w-[135px] w-[110px]  h-[40px]"
             />
           </figure>
         </div>
