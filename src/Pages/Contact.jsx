@@ -3,7 +3,7 @@ import Heading from "../Components/Heading";
 
 const Contact = () => {
   return (
-    <section id="contact" className="mt-[150px]">
+    <section id="contact" className="lg:mt-[150px] md:mt-[100px] mt-[70px]">
           {/* <Heading speed={50}>
            Contact Us
   

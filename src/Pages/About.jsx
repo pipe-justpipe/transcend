@@ -44,7 +44,7 @@ const About = () => {
   return (
     
     <section id="about" className="lg:mt-[350px] md:lt-[250px] mt-[100px] w-[80%] mx-auto lg:mb-[200px] md:mb-[150px] mb-[70px]">
-      <h1 className="text-center lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] mb-[50px]" id="demo">
+      <h1 className="text-center lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] lg:mb-[50px] md:mb-[40px] mb-[20px]" id="demo">
       How <span className="text-[#491D8B]">Transcend</span> App Works
       </h1>
       <div className="about relative flex flex-wrap">
