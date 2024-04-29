@@ -15,8 +15,7 @@ const Svm = ({ imgSrc, head, paragraph, widt }) => {
       newWidth = '75%'; // Example value
     } else if (screenWidth >= 1024) {
       newFontSize = '20px';
-      newLineHeight = '40px';
-      newWidth = widt; // Example value for a large screen
+      newWidth = widt; 
     }
 
     setPStyle({ width: newWidth, });
@@ -33,7 +32,7 @@ const Svm = ({ imgSrc, head, paragraph, widt }) => {
   return (
     <div>
       <div className='flex items-center pb-[5px] border border-b-[3px] mt-[20px] border-t-0 border-l-0 border-r-0 border-[#A56EFF] w-fit'>
-        <img src={imgSrc} alt={head} className='lg:w-[37.19px] lg:h-[37.19px] md:w-[30px] md:h-[30px] w-[24px] h-[24px]' />
+        <img src={imgSrc} alt={head} className='lg:w-[37.19px] md:w-[30.19px] md:h-[30.19px] lg:h-[37.19px] w-[24px] h-[24px]' />
         <h1 className='text-[20px] lg:text-[32px] md:text-[26px] leading-[40px] font-[400] text-[#491D8B]'>{head}</h1>
       </div>
       <p style={pStyle} className='lg:text-[20px] md:text-[16px] text-[12px] leading-[40px] '>{paragraph}</p>
