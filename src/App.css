@@ -13,10 +13,10 @@
 
 .background-image {
   position: absolute;
-  top: 0;
+  top: 150px;
   left: 50%;
-  width: 650px;
-  height: 790px;
+  width: 600px;
+  height: 730px;
   background-image: url("../src/assets/svgs/mobilesignup.svg");
   background-size: cover;
   background-position: center;

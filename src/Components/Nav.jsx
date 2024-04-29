@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TranscendLogo from '../assets/svgs/transcendlogo.svg'; // Ensure correct import path
+import TranscendLogo from '../assets/svgs/transcendlogo.svg'; 
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
