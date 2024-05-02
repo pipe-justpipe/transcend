@@ -107,12 +107,12 @@ const About = () => {
         </div>
       </div>
       <h1
-        className="text-center lg:mt-[270px] md:mt-[100px] mt-[70px] lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] lg:mb-[50px] md:mb-[40px] mb-[20px]"
+        className="text-center lg:mt-[470px] md:mt-[100px] mt-[70px] lg:text-[40px] md:text-[30px] text-[23px] font-medium leading-[30px] lg:mb-[50px] md:mb-[40px] mb-[20px]"
         id="demo"
       >
         About <span className="text-[#491D8B]">Transcend</span>
       </h1>
-      <p className="lg:text-[20px] md:text-[16px] text-[12px] leading-[40px] lg:mt-[50px] md:mt-[50px] mt-[30px] text-center">
+      <p className="lg:text-[20px] md:text-[16px] text-[12px] leading-[40px] lg:mt-[80px] md:mt-[50px] mt-[30px] text-center">
         Transcend is revolutionizing urban mobility in Nigeria, offering a
         seamless and smart commuting experience for millions of Nigerians. With
         a focus on efficiency, affordability, and sustainability, Transcend aims
@@ -120,7 +120,7 @@ const About = () => {
         Africa.
       </p>
       <div className="flex justify-center">
-        <button className="text-center lg:text-[20px] md:text-[16px] text-[12px] mt-[50px] leading-[30px] font-[600] text-[#FFFFFF] w-[256px] lg:py-[16px] lg:px-[20px] md:py-[14px] md:px-[14px] rounded-[12px] bg-gradient-to-br from-purple-600 to-indigo-600">
+        <button className="text-center lg:text-[20px] md:text-[16px] text-[12px] mt-[70px] leading-[30px] font-[600] text-[#FFFFFF] w-[256px] lg:py-[16px] lg:px-[20px] md:py-[14px] md:px-[14px] rounded-[12px] bg-gradient-to-br from-purple-600 to-indigo-600">
           Get the App
         </button>
       </div>
