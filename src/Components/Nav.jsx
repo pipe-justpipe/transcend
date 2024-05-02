@@ -42,7 +42,7 @@ function Nav() {
           )}
           {isOpen && (
             <div className="flex flex-col border border-[#1C0F30] px-[20px] py-[16px] rounded-[12px]">
-              <ul className="text-[#1C0F30] text-lg leading-[30px] font-medium">
+              <ul className="text-[#1C0F30] text-lg leading-[30px] font-medium flex flex-col">
                 <Link to={"#home"}>Home</Link>
                 <Link to={"#about"}>About</Link>
                 <Link to={"#pricing"}>Pricing</Link>
