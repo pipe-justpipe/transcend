@@ -1,5 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const {
@@ -10,6 +12,7 @@ const Contact = () => {
 
   const onSubmit = (data) => {
     console.log("Form Data:", data);
+    toast.success("Form submitted successfully!");
   };
 
   return (
@@ -21,16 +24,16 @@ const Contact = () => {
         Contact Us
       </h1>
       <p className="w-full max-w-[1180px] text-center mx-auto lg:text-[20px] md:text-[16px] text-[12px] leading-[30px] text-[#31135E] font-normal mt-[50px] mb-[40px] md:mb-[70px] lg:mb-[100px]">
-        Have a question, comment, or feedback for us? We’d love to hear from
-        you! Our team is dedicated to providing the best possible experience,
-        and we're always eager to assist you.
+        Have a question, comment, or feedback for us? We'd love to hear from
+        you!
       </p>
+
       <div className="w-4/5 mx-auto rounded-[50px] border border-solid py-[60px] border-[#BE95FF]">
         <form
           className="mx-auto flex flex-col gap-[40px]"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <div className="flex flex-wrap gap-[20px] justify-between w-4/5 mx-auto">
+          <div class="flex flex-wrap gap-[20px] justify-between w-4/5 mx-auto">
             <input
               className="border outline-none border-solid border-black border-opacity-25 lg:w-[480.18px] md:w-[380px] w-full mx-auto rounded-[12px] px-[20px] py-[16px]"
               placeholder="What is your name? *"
@@ -64,9 +67,21 @@ const Contact = () => {
             <p className="text-red-500 text-sm">{errors.message.message}</p>
           )}
 
-<div className="flex justify-end w-4/5 mx-auto"><button className="py-[16px] px-[20px] w-[137px] text-sm text-white bg-gradient-to-br from-purple-600 to-indigo-600 rounded-md">Submit</button>
-        </div>
+          <div className="flex justify-end w-4/5 mx-auto">
+            <button className="py-[16px] px-[20px] w-[137px] text-sm text-white bg-gradient-to-br from-purple-600 to-indigo-600 rounded-md">
+              Submit
+            </button>
+          </div>
         </form>
+
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          closeOnClick
+          draggable
+          pauseOnHover
+        />
       </div>
     </section>
   );
