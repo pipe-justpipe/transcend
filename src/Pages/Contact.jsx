@@ -64,7 +64,7 @@ const Contact = () => {
             {...register("message", { required: "Message is required" })}
           />
           {errors.message && (
-            <p className="text-red-500 text-sm w-4/5">{errors.message.message}</p>
+            <p className="text-red-500 text-sm w-4/5 mx-auto">{errors.message.message}</p>
           )}
 
           <div className="flex justify-end w-4/5 mx-auto">
